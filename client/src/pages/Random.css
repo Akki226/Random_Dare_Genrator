@@ -1,0 +1,24 @@
+.choice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: black;
+  }
+  
+  .choice-button {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: #0F9D58;
+    border-radius: 8px;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .choice-button:hover {
+    background-color: #0F8C4F;
+  }
